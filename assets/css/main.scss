@@ -97,18 +97,29 @@ a {
 	}
 }
 
-.profile-photo {
-  float: left;
-  width: 30%;
-  padding-right: 1rem;
-  padding-top: 0.4rem;
-	-webkit-filter: grayscale(100%);
-  /* Safari 6.0 - 9.0 */
-  filter: grayscale(100%);
-}
-
-.profile-photo:hover {
-  -webkit-filter: none;
-  /* Safari 6.0 - 9.0 */
-  filter: none;
-}
+.figure {
+    position: relative;
+    width: 360px; /* can be omitted for a regular non-lazy image */
+    max-width: 100%;
+		float: left;
+	  // width: 30%;
+	  padding-right: 1rem;
+	  // padding-top: 0.4rem;
+  }
+  .figure img.Sirv.image-hover {
+		float: left;
+	  // width: 30%;
+	  padding-right: 1rem;
+	  // padding-top: 0.4rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .2s;
+  }
+  .figure:hover img.Sirv.image-hover {
+    opacity: 1;
+  }
