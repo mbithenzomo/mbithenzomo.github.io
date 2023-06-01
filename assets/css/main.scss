@@ -90,7 +90,7 @@ a {
 
 @media (min-width: 641px) {
 	.container {
-		max-width: 60%;
+		max-width: 75%;
 	}
 	html, body {
 		 font-weight: 250 !important;
@@ -106,7 +106,8 @@ a {
 	  padding-right: 1rem;
 	  // padding-top: 0.4rem;
   }
-  .figure img.Sirv.image-hover {
+
+.figure img.Sirv.image-hover {
 		float: left;
 	  // width: 30%;
 	  padding-right: 1rem;
@@ -120,6 +121,13 @@ a {
     opacity: 0;
     transition: opacity .2s;
   }
-  .figure:hover img.Sirv.image-hover {
+
+.figure:hover img.Sirv.image-hover {
     opacity: 1;
   }
+
+.two-columns {
+    column-count: 2;
+    column-gap: 20px;
+		text-align: justify;
+}
