@@ -3,6 +3,25 @@
 # Change this file for any custom CSS.
 ---
 
+p {
+	color: #565656;
+	font-size: 0.95rem;
+}
+
+a {
+	color: #565656;
+}
+
+.btn-styled {
+  color: #565656;
+  background-color: #D7CEC7;
+  border-color: #C09580;
+}
+
+.btn-styled:hover {
+  color: white;
+}
+
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
 	display:inline;
@@ -15,7 +34,7 @@
 ;
 
 .site-title {
-	color: #212529;
+	color: #565656;
 }
 
 .about-section, .publications-section, .btn {
@@ -27,11 +46,15 @@
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-	color: #F3B829;
+	color: #C09580;
+}
+
+.navbar-light .navbar-nav .nav-link {
+	color: #565656;
 }
 
 hr {
-	border-top: 1px solid rgba(243, 184, 41, .2) !important;
+	border-top: 1px solid rgba(192, 149, 128, .2) !important;
 }
 
 .site-content {
@@ -40,7 +63,7 @@ hr {
 
 .footer {
 		margin-top: 50px !important;
-    margin-bottom: 30px !important;
+    margin-bottom: 0px !important;
 }
 
 html, body {
@@ -71,8 +94,7 @@ html, body {
 }
 
 a {
-    color: black;
-    font-weight: bolder;
+    color: #C09580;
 }
 
 #d-block {
@@ -99,7 +121,7 @@ a {
 
 .figure {
     position: relative;
-    width: 300px; /* can be omitted for a regular non-lazy image */
+    // width: 300px; /* can be omitted for a regular non-lazy image */
     max-width: 100%;
 		float: left;
 	  // width: 30%;

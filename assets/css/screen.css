@@ -16,7 +16,7 @@ a {
 }
 
 a:hover {
-    color: #F3B829;
+    color: #D7CEC7;
     text-decoration: none;
 }
 
@@ -39,7 +39,7 @@ pre {
 
 .mediumnavigation {
     background: rgba(255, 255, 255, .97);
-    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .15);
+    box-shadow: 0 2px 2px -2px rgba(192, 149, 128, .5);
     transition: top 0.2s ease-in-out;
 }
 
@@ -49,7 +49,7 @@ pre {
 
 .site-content {
     min-height: 60vh;
-    padding-top: 1.5rem;
+    padding-top: 4rem;
     margin-top: 57px;
     transition: all 0.4s;
 }
@@ -63,7 +63,7 @@ section.recent-posts {
 }
 
 .section-title h2 {
-    border-bottom: 1px solid rgba(243, 184, 41, .5);
+    border-bottom: 1px solid rgba(192, 149, 128, .5);
     margin-bottom: 25px;
     font-weight: 400;
     font-size: 1.4rem;
@@ -71,7 +71,7 @@ section.recent-posts {
 }
 
 .section-title span {
-    border-bottom: 1px solid rgba(243, 184, 41);
+    border-bottom: 1px solid rgba(192, 149, 128);
     display: inline-block;
     padding-bottom: 20px;
     margin-bottom: -1px;
@@ -299,7 +299,7 @@ span.post-read-more a:hover {
 }
 
 .mediumnavigation .navbar-brand img {
-    max-height: 30px;
+    max-height: 80px;
     margin-right: 5px;
 }
 
@@ -313,15 +313,15 @@ span.post-read-more a:hover {
 }
 
 .footer {
-    border-top: 1px solid rgba(0, 0, 0, .05) !important;
-    padding-top: 15px;
-    padding-bottom: 12px;
-    font-size: 0.8rem;
-    color: rgba(0, 0, 0, .44);
-    margin-top: 50px;
-    margin-bottom: 62px;
-    position: relative;
-    background: #fff;
+  border-top: 1px solid #C09580 !important;
+  padding-top: 15px;
+  padding-bottom: 12px;
+  font-size: 0.8rem;
+  color: #565656;
+  margin-top: 50px;
+  margin-bottom: 62px;
+  position: relative;
+  background: #d7cec7;
 }
 
 .link-dark {

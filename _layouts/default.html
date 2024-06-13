@@ -12,7 +12,10 @@
 <script src="https://scripts.sirv.com/sirvjs/v3/sirv.js"></script>
 <link href="{{ site.baseurl }}/assets/css/screen.css" rel="stylesheet">
 <link href="{{ site.baseurl }}/assets/css/main.css" rel="stylesheet">
+<link href="{{ site.baseurl }}/assets/css/brands.css" rel="stylesheet">
 <script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/assets/js/fontawesome.js"></script>
+<script src="{{ site.baseurl }}/assets/js/brands.js"></script>
 
 </head>
 
@@ -38,7 +41,7 @@ ga('send', 'pageview');
 			<!-- defer loading of font and font awesome -->
 			<noscript id="deferred-styles">
 				<link href="https://fonts.googleapis.com/css?family=Righteous%7CMerriweather:300,300i,400,400i,700,700i" rel="stylesheet">
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+				<!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous"> -->
 			</noscript>
 
 
@@ -48,9 +51,9 @@ ga('send', 'pageview');
 
 			    <div class="container pr-0">
 
-					<a class="site-title" href="{{site.baseurl}}/">
-						<h4>MBITHE NZOMO</h4>
-					</a>
+					<a class="navbar-brand" href="{{ site.baseurl }}/">
+			    <img src="{{ site.baseurl }}/assets/images/logo.png" alt="{{ site.name }}">
+			    </a>
 
 			    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMediumish" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -62,7 +65,11 @@ ga('send', 'pageview');
 
 			            <ul class="navbar-nav ml-auto">
 			                <li class="nav-item">
-			                <a class="nav-link" href="{{site.baseurl}}/#news">News</a>
+			                <a class="nav-link" href="{{site.baseurl}}/">Home</a>
+			                </li>
+
+			                <li class="nav-item">
+			                <a class="nav-link" href="{{site.baseurl}}/updates">Updates</a>
 			                </li>
 
 			                <li class="nav-item">
@@ -75,15 +82,15 @@ ga('send', 'pageview');
 			                </li>
 
 			                <li class="nav-item">
-			                <a target="_blank" class="nav-link" href="https://twitter.com/mbithenzomo/"><i class="fab fa-twitter"></i></a>
+			                <a target="_blank" class="nav-link" href="https://x.com/mbithenzomo/"><i class="fa-brands fa-x-twitter"></i></a>
 			                </li>
 
 			                <li class="nav-item">
-			                <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/mbithenzomo/"><i class="fab fa-linkedin"></i></a>
+			                <a target="_blank" class="nav-link" href="https://www.linkedin.com/in/mbithenzomo/"><i class="fa-brands fa-linkedin"></i></a>
 			                </li>
 
 			                <li class="nav-item">
-			                <a target="_blank" class="nav-link" href="https://github.com/mbithenzomo/"><i class="fab fa-github"></i></a>
+			                <a target="_blank" class="nav-link" href="https://github.com/mbithenzomo/"><i class="fa-brands fa-github"></i></a>
 			                </li>
 
 			            </ul>
@@ -132,9 +139,6 @@ ga('send', 'pageview');
 			        <div class="row">
 			            <div class="col-md-6 col-sm-6 text-center text-lg-left">
 			                Copyright © {{ site.time | date: "%Y" }} {{ site.name }}
-			            </div>
-			            <div class="col-md-6 col-sm-6 text-center text-lg-right">
-			                <a target="_blank" href="https://www.wowthemes.net/mediumish-free-jekyll-template/">Mediumish Jekyll Theme</a>
 			            </div>
 			        </div>
 			    </div>
