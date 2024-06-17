@@ -62,7 +62,7 @@ section.recent-posts {
     margin-bottom: 0;
 }
 
-.section-title h2 {
+.section-title h2, h3 {
     border-bottom: 1px solid rgba(192, 149, 128, .5);
     margin-bottom: 25px;
     font-weight: 400;
